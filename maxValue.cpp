@@ -43,6 +43,8 @@ int main() {
         num = randomNumber;
 
         randomNumbers[counter] = randomNumber;
+        
+        std::cout << randomNumber << " added to position " << counter << "\n";
     }
     maxV = calculateMaxValue(randomNumbers);
     std::cout << maxV;
